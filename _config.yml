@@ -1,0 +1,33 @@
+repository: "komachi/freeklepikov.org"
+baseurl: ""
+url: "https://freeklepikov.org"
+
+#twitter:
+#  username: FreeKlepikov
+og:
+  type: article
+#logo: /images/freeklepikov.jpg
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      seo:
+        type: Article
+#      image: /images/freeklepikov.jpg
+
+languages:
+  - name: English
+    link: '/en'
+    code: en_US
+  - name: Русский
+    link: '/'
+    code: ru_RU
+
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap

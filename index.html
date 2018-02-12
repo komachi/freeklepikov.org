@@ -1,0 +1,76 @@
+---
+layout: default
+langcode: ru_RU
+title: "Свободу Дмитрию Клепикову — #FreeKlepikov"
+description: Дмитрий Клепиков арестован за запуск Tor релея. Он должен быть освобожден.
+hashtag: FreeKlepikov
+socialText: Свободу Дмитрию Клепикову!
+---
+
+<header id="header">
+    <div id="lang">
+      <a href="/en"><span class="full">English</span><span class="short">En</span></a>
+    </div>
+    <h1>{{ page.title }}</h1>
+  </div>
+</header>
+<main id="content">
+  <article>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-pad">
+            <h2>В чем его обвиняют?</h2>
+            <p><strong>Дмитрия Клепикова обвиняют в «противоправной коммуникации».</strong></p>
+          </div>
+          <div class="col-pad">
+            <h2>Почему он невиновен?</h2>
+            <p><strong>Как и <a href="https://freebogatov.org" target="_blank">Дмитрий Богатов</a>, Дмитрий Клепиков содержал выходной сервер сети Tor, любой мог разместить информацию с его домашнего IP-адреса.</strong></p>
+            <p>Содержать выходной сервер не запрещено законом, и Дмитрий не обвиняется в этом. Tor — это специальное программное обеспечение, перенаправляющее трафик через случайную цепочку серверов, расположенных по всему миру. Выходные серверы (exit-релеи) используются как последние сервера в цепочке — заходы именно с этих IP-адресов видят владельцы сайтов. <a href="https://atlas.torproject.org/#details/5C3B8FB35A13C508CF65E8499E35755DA098DC93" target="_blank">Релей Дмитрия</a> последний раз был в сети 11 февраля 2018 года. В поддержку Богатова Дмитрий Клепиков дал своему релею имя KActionLibre, и теперь ему предъявлены аналогичные обвинения.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="subject">Как помочь Дмитрию?</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-pad">
+            <h2>Распространяйте информацию о деле</h2>
+            <p>Чем больше будет привлечено внимания — тем больше шансов добиться скорого освобождения Дмитрия.</p>
+            <p>Используйте хештэг <a href="https://www.google.ru/?q=%23{{ page.hashtag }}" target="_blank">#{{ page.hashtag }}</a> в социальных сетях.</p>
+            {% include social.html %}
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="subject">Публикации</h1>
+      <div class="container">
+        <ul class="logos">
+          <li><a
+            href="http://libertarian-party.ru/news/na-dmitriya-klepikova-zavedeno-ugolovnoe-delo"
+            title="На Дмитрия Клепикова заведено уголовное дело, Либертарианская партия России"
+            target="_blank"
+          ><img src="/images/logos/libertarianpartyofrussia.png" alt="Либертарианская партия России"></a></li>
+          <li><a
+            href="https://zona.media/news/2018/02/12/klepikov-tor"
+            title="Задержанный в Подмосковье и доставленный в Смоленск активист Либертарианской партии держал выходной узел Tor, Медиазона"
+            target="_blank"
+          ><img src="/images/logos/mediazona.svg" alt="Медиазона"></a></li>
+        </ul>
+      </div>
+    </section>
+  </article>
+</main>
+<footer id="footer">
+  <div class="row-wrap">
+    <div class="col-wrap">
+      <p>Copyright: <a href="https://creativecommons.org/publicdomain/zero/1.0">CC0 1.0</a>, <a href="https://github.com/{{ site.repository }}">GitHub</a></p>
+    </div>
+    <div class="col-wrap">
+      <ul class="social">
+      </ul>
+    </div>
+  </div>
+</footer>

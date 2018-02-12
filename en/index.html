@@ -1,0 +1,76 @@
+---
+layout: default
+langcode: en_US
+title: "Free Dmitry Klepikov — #FreeKlepikov"
+description: Dmitry Klepikov arrested for running Tor relay. He must be released.
+socialText: Free Dmitry Klepikov!
+hashtag: FreeKlepikov
+---
+
+<body>
+  <header id="header">
+      <div id="lang">
+        <a href="/"><span class="full">Русский</span><span class="short">Рус</span></a>
+      </div>
+      <h1>{{ page.title }}</h1>
+    </div>
+  </header>
+  <main id="content">
+    <article>
+        <div class="container">
+          <div class="row">
+            <div class="col-pad">
+              <h2>What is he accused of?</h2>
+              <p><strong>Dmitry Klepikov is accused of "unlawful communication".</strong></p>
+            </div>
+            <div class="col-pad">
+              <h2>Why is he innocent?</h2>
+              <p><strong>As <a href="https://freebogatov.org/en" target="_blank">Dmitry Bogatov</a>, Dmitry Klepikov ran a Tor exit relay and anyone could post any information from his IP address.</strong></p>
+              <p>Running an exit relay is not illegal in Russia, and he's not charged with that. <a href="https://en.wikipedia.org/wiki/Tor_(anonymity_network)" target="_blank">Tor</a> is a special software which routes Internet traffic over random circuits builded from servers located around the world. Exit relays are used as last servers in circuit, that's why their adresses appears in logs. Dmitry's relay was online last time at 11 February 2018. In support of Dmitry Bogatov, he called his relay name KActionLibre, and now he is accused with similar charges.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h1 class="subject">How can I help?</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-pad">
+              <h2>Distribute information about the case</h2>
+              <p>The more attention will be drawn, the more chances to achieve Dmitry's release.</p>
+              <p>Use hashtag <a href="https://www.google.com/?q=%23{{ page.hashtag }}" target="_blank">#{{ page.hashtag }}</a> in social nets.</p>
+              {% include social.html %}
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h1 class="subject">Media</h1>
+        <div class="container">
+          <ul class="logos">
+            <li><a
+              href="http://libertarian-party.ru/news/na-dmitriya-klepikova-zavedeno-ugolovnoe-delo"
+              title="На Дмитрия Клепикова заведено уголовное дело, Либертарианская партия России"
+              target="_blank"
+            ><img src="/images/logos/libertarianpartyofrussia.png" alt="Либертарианская партия России"></a></li>
+            <li><a
+              href="https://zona.media/news/2018/02/12/klepikov-tor"
+              title="Задержанный в Подмосковье и доставленный в Смоленск активист Либертарианской партии держал выходной узел Tor, Медиазона"
+              target="_blank"
+            ><img src="/images/logos/mediazona.svg" alt="Медиазона"></a></li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer id="footer">
+    <div class="row-wrap">
+      <div class="col-wrap">
+        <p>Copyright: <a href="https://creativecommons.org/publicdomain/zero/1.0">CC0 1.0</a>, <a href="https://github.com/{{ site.repository }}">GitHub</a></p>
+      </div>
+      <div class="col-wrap">
+        <ul class="social">
+        </ul>
+      </div>
+    </div>
+  </footer>
